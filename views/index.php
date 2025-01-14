@@ -66,7 +66,7 @@
             </div>
             <div>
                 <p class="text--sm poppins-regular text-center">
-                NorteSur nace por la pasión y el amor a la gastronomía mexicana, por la gran variedad de tradiciones, colores, aromas y sabores que nos ofrece este hermoso país. Nuestra misión es traer a tu mesa los platillos más representativos de norte a sur de toda la república mexicana, reinventando siempre la cocina tradicional que tanto te gusta.
+                    NorteSur nace por la pasión y el amor a la gastronomía mexicana, por la gran variedad de tradiciones, colores, aromas y sabores que nos ofrece este hermoso país. Nuestra misión es traer a tu mesa los platillos más representativos de norte a sur de toda la república mexicana, reinventando siempre la cocina tradicional que tanto te gusta.
                 </p>
             </div>
         </div>
@@ -82,7 +82,70 @@
     </section>
 
     <!-- Nuestro menú -->
-     <?php include 'components/nuestro_menu.php'; ?>
+    <?php include 'components/nuestro_menu.php'; ?>
+
+    <!-- Seccion contamos ...  -->
+    <section class="mw--1440 py-5 px-4">
+        <div class="grid--2cols mw--1080">
+            <div>
+                <img src="<?php echo __ROOT__; ?>/public/img/home/contamos.png" alt="cta" class="w-100">
+            </div>
+            <div class="p-2 p-sm-5 align-content-center">
+                <h2 class="text--secciones poppins-regular text-uppercase">Contamos con diferentes espacios para tus eventos privados</h2>
+                <div>
+                    <a href="#" class="btn btn--white text-uppercase poppins-light rounded-0 mt-4 px-5 py-3">
+                        Contáctanos
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seccion un restaurante ... -->
+    <section class="mw--1440 py-5 px-4 row m-0 mx-auto">
+        <div class="col-lg-7 align-content-center p-2 p-sm-5">
+            <h2 class="text--secciones poppins-regular text-uppercase">Un restaurante 100% mexicano, donde se mezclan la riqueza y el valor de nuestras tradiciones, con la fuerza y juventud de nuestro México <span class="word-break">contemporáneo</span>.</h2>
+        </div>
+        <div class="col-lg-5">
+            <img src="<?php echo __ROOT__; ?>/public/img/home/unres.png" alt="restaurante" class="w-100">
+        </div>
+    </section>
+
+    <!-- Review -->
+    <section class="mw--1440 row m-0 mx-auto">
+        <div class="col-lg-5 p-0">
+            <img src="<?php echo __ROOT__; ?>/public/img/home/review.png" alt="review" class="w-100 h-100 img--cover">
+        </div>
+        <div class="col-lg-7 p-4 p-sm-5 bg--black">
+            <span class="quotes--red">"</span>
+            <h2 class="text--secciones poppins-regular text-uppercase text--md text--white">
+                Excelente lugar para ir a degustar buenos alimentos.
+                Una calidad en sabor sazón con ingredientes de primera.
+            </h2>
+            <p class="text--sm poppins-extralight mt-4 text--white">
+                Es un gran restaurante con comida muy rica y diferente. Hay un plato con chapulines. La atención del personal es maravillosa, tanto los meseros como el personal en la puerta y la señorita del área infantil es un encanto. Muy recomendable.
+            </p>
+            <p class="text--sm poppins-extralight mt-4 text--white">
+            Edgar Roberto Dávila Jiménez
+            </p>
+    </section>
+
+    <!-- Fotos -->
+    <section class="mw--1440 py-5 px-4 section__fotos">
+        <div class="fotos--first">
+            <img src="<?php echo __ROOT__; ?>/public/img/home/res1.png" alt="foto" class="w-100 h-100 img--cover">
+        </div>
+        <div class="fotos--mid grid gap--24">
+            <div class="grid--2cols gap--24">
+                <img src="<?php echo __ROOT__; ?>/public/img/home/res2.png" alt="foto" class="w-100 h-100 img--cover">
+                <img src="<?php echo __ROOT__; ?>/public/img/home/res3.png" alt="foto" class="w-100 h-100 img--cover">
+            </div>
+            <img src="<?php echo __ROOT__; ?>/public/img/home/res4.png" alt="foto" class="w-100 h-100 img--cover">
+        </div>
+        <div class="fotos--last">
+            <img src="<?php echo __ROOT__; ?>/public/img/home/res5.png" alt="foto" class="w-100 h-100 img--cover">
+        </div>
+    </section>
 </main>
 
 <script>

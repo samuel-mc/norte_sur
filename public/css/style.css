@@ -203,6 +203,15 @@ html {
     object-fit: cover;
 }
 
+.text--secciones {
+    font-size: 40px;
+}
+
+.quotes--red {
+    color: #B62B36;
+    font-size: 100px;
+}
+
 @media (max-width: 991px) {
     .nav-desktop__top {
         display: none;
@@ -212,5 +221,11 @@ html {
     .concepto__restaurantes img:nth-child(2),
     .concepto__restaurantes img:last-child {
         grid-column: 1 / 13;
+    }
+}
+
+@media (max-width: 575px) {
+    .text--secciones {
+        font-size: 24px;
     }
 }
