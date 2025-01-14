@@ -7,6 +7,9 @@
     --light-grey: #D4D2E3;
     --white-input: #F9F9FF;
 
+    /* Colores custom */
+    --black: #2D2D2D;
+
     --text-xs: 12px;
     --text-sm: 16px;
     --text-md: 20px;
@@ -214,6 +217,10 @@
     background-color: var(--white-input);
 }
 
+.bg--black {
+    background-color: var(--black);
+}
+
 .btn {
     border-radius: 10px;
     padding: 2% 5%;
@@ -244,6 +251,16 @@
 
 .btn--darkBlue:hover {
     background-color: var(--light-blue) !important;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn--white {
+    background-color: rgb(255, 255, 255) !important;
+    transition: background-color 0.6s ease-in-out;
+}
+
+.btn--white:hover {
+    background-color: rgba(255, 255, 255, 0.7) !important;
     transition: background-color 0.3s ease-in-out;
 }
 
@@ -300,6 +317,14 @@
 .mw--280 {
     max-width: 280px;
     margin: 0 auto;
+}
+
+.mw--420 {
+    max-width: 420px;
+}
+
+.mw--600 {
+    max-width: 600px;
 }
 
 .mw--720 {

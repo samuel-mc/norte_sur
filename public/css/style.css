@@ -108,6 +108,11 @@ html {
     position: relative;
 }
 
+.hero > img {
+    min-height: 280px !important;
+    object-fit: cover;
+}
+
 .hero > div {
     position: absolute;
     top: 0;
@@ -116,6 +121,48 @@ html {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.66);
 }
+
+.horarios--right {
+    background-image: url('../img/home/horariosBG.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.horarios--form.dis {
+    height: 0;
+}
+
+.horarios--form.dis>* {
+    display: none;
+}
+
+.horarios--form {
+    height: 100%;
+}
+
+#btnReservar.dis {
+    display: none;
+}
+
+.horario--input {
+    width: 100%;
+    background-color: var(--black);
+    color: var(--white);
+    border: 1px solid var(--white);
+    padding: 12px 24px;
+}
+
+.horario--input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.horario--input:focus {
+    border: 1px solid var(--light-blue);
+    outline: none;
+}
+
+
 
 @media (max-width: 991px) {
     .nav-desktop__top {
