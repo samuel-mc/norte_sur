@@ -9,6 +9,7 @@
 
     /* Colores custom */
     --black: #2D2D2D;
+    --ivory: #FBF8F7;
 
     --text-xs: 12px;
     --text-sm: 16px;
@@ -219,6 +220,10 @@
 
 .bg--black {
     background-color: var(--black);
+}
+
+.bg--ivory {
+    background-color: var(--ivory);
 }
 
 .btn {

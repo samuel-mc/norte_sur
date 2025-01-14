@@ -162,7 +162,21 @@ html {
     outline: none;
 }
 
+.concepto__first, .concepto__last {
+    position: relative;
+}
 
+.concepto__first > img, .concepto__last > img {
+    position: absolute;
+    top: -60px;
+}
+
+.line--red {
+    display: block;
+    background-color: #B62B36;
+    height: 2px;
+    width: 120px;
+}
 
 @media (max-width: 991px) {
     .nav-desktop__top {
