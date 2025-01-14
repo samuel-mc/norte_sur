@@ -302,6 +302,10 @@
     margin: 0 auto;
 }
 
+.mw--720 {
+    max-width: 720px;
+}
+
 .mw-400 {
     max-width: 400px;
     margin: 0 auto;
