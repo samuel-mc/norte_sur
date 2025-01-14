@@ -178,8 +178,39 @@ html {
     width: 120px;
 }
 
+.concepto__restaurantes {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 24px;
+}
+
+.concepto__restaurantes img:first-child {
+    grid-column: 1 / 4;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.concepto__restaurantes img:nth-child(2) {
+    grid-column: 4 / 10;
+    height: 100%;
+    object-fit: cover;
+}
+
+.concepto__restaurantes img:last-child {
+    grid-column: 10 / 13;
+    height: 100%;
+    object-fit: cover;
+}
+
 @media (max-width: 991px) {
     .nav-desktop__top {
         display: none;
+    }
+
+    .concepto__restaurantes img:first-child,
+    .concepto__restaurantes img:nth-child(2),
+    .concepto__restaurantes img:last-child {
+        grid-column: 1 / 13;
     }
 }

@@ -49,14 +49,14 @@
     </section>
 
     <!-- Nuestro concepto -->
-    <section class="mw--1440 row m-0 mx-auto bg--ivory section__concepto">
-        <div class="col-3 p-0 concepto__first">
+    <section class="mw--1440 row m-0 mx-auto bg--ivory">
+        <div class="col-3 d-none d-md-block p-0 concepto__first">
             <img src="<?php echo __ROOT__; ?>/public/img/home/concepto1.png" alt="concepto" class="w-100">
         </div>
-        <div class="col-6 py-5 px-4">
+        <div class="col-md-6 py-5 px-4">
             <div class="d-flex justify-content-center align-items-center">
                 <span class="line--red"></span>
-                <h3 class="text--md poppins-extralight text-uppercase mx-3">
+                <h3 class="text--md poppins-extralight text-uppercase mx-3 text-center">
                     Nuestro concepto
                 </h3>
                 <span class="line--red"></span>
@@ -70,10 +70,19 @@
                 </p>
             </div>
         </div>
-        <div class="col-3 p-0 concepto__last">
+        <div class="col-3 d-none d-md-block p-0 concepto__last">
             <img src="<?php echo __ROOT__; ?>/public/img/home/concepto2.png" alt="concepto" class="w-100">
         </div>
     </section>
+
+    <section class="mw--1440 bg--ivory concepto__restaurantes py-5">
+        <img src="<?php echo __ROOT__; ?>/public/img/home/r1.png" alt="restaurante 1" class="w-100">
+        <img src="<?php echo __ROOT__; ?>/public/img/home/r2.png" alt="restaurante 2" class="w-100">
+        <img src="<?php echo __ROOT__; ?>/public/img/home/r3.png" alt="restaurante 3" class="w-100">
+    </section>
+
+    <!-- Nuestro menú -->
+     <?php include 'components/nuestro_menu.php'; ?>
 </main>
 
 <script>
