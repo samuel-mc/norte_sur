@@ -1,5 +1,5 @@
-<footer class="bg--black p-4 py-8 text--white">
-    <div class="mw--1080 mx-auto row m-0">
+<footer class="bg--black p-4 py-5 text--white">
+    <div class="mw--1080 mx-auto row m-0 py-5">
         <div class="col-md-4 p-2 d-none d-md-block">
             <header class="mb-4">
                 <h2 class="text--md poppins-light text-uppercase">Estamos en</h2>
@@ -19,7 +19,7 @@
                 </div>
             </main>
         </div>
-        <div class="col-md-4 text-center align-content-center p-5">
+        <div class="col-md-4 text-center align-content-center p-2 p-md-5">
             <img src="<?php echo __ROOT__; ?>/public/img/logo.png" alt="logo" width="190.51" height="96.28" class="mb-5">
             <div class="d-flex justify-content-center">
                 <a href="#" class="footer__link mx-3 d-block">
