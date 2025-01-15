@@ -1,26 +1,74 @@
-<footer class="bg-white p-4 py-8">
-    <div class="">
-        <div class="md:col-span-2">
-            <img src="<?php echo __ROOT__; ?>/public/img/logo.png" alt="logo de la empresa" class="w-100" >
+<footer class="bg--black p-4 py-8 text--white">
+    <div class="mw--1080 mx-auto row m-0">
+        <div class="col-md-4 p-2 d-none d-md-block">
+            <header class="mb-4">
+                <h2 class="text--md poppins-light text-uppercase">Estamos en</h2>
+                <span class="line--red"></span>
+            </header>
+            <main>
+                <div class="my-3">
+                    <h3 class="text--sm poppins-semibold text-uppercase mb-2">Ubicación</h3>
+                    <a href="#" class="a--white text--sm poppins-extralight">
+                        Ignacio Comonfort 302, Colonia Santa Ana Tlapaltitlán 50160 Estado de México, México
+                    </a>
+                </div>
+                <div class="my-3">
+                    <h3 class="text--sm poppins-semibold text-uppercase mb-2">Reservar mesa</h3>
+                    <a href="mailto:reservans@orraca.com.mx" class="a--white text--sm poppins-extralight d-block mb-2">reservans@orraca.com.mx </a>
+                    <a href="tel:7221994440" class="a--white text--sm poppins-extralight d-block">(722) 199 4440</a>
+                </div>
+            </main>
         </div>
-        <div class="md:col-span-8 md:px-8 md:text-center">
-            <ul class="flex flex-col md:flex-row justify-between">
-                <li class="my-3 mx-3"><a href="<?php echo __ROOT__; ?>">Inicio</a></li>
-                <li class="my-3 mx-3"><a href="<?php echo __ROOT__; ?>nosotros">Acerca de nosotros</a></li>
-                <li class="my-3 mx-3"><a href="<?php echo __ROOT__; ?>servicios">Servicios</a></li>
-                <li class="my-3 mx-3"><a href="<?php echo __ROOT__; ?>multimedia">Multimedia y fotos</a></li>
-                <li class="my-3 mx-3"><a href="<?php echo __ROOT__; ?>#contacto">Contacto</a></li>
-            </ul>
+        <div class="col-md-4 text-center align-content-center p-5">
+            <img src="<?php echo __ROOT__; ?>/public/img/logo.png" alt="logo" width="190.51" height="96.28" class="mb-5">
+            <div class="d-flex justify-content-center">
+                <a href="#" class="footer__link mx-3 d-block">
+                    <img src="<?php echo __ROOT__; ?>/public/img/footer/fb.png" alt="facebook" width="36" height="36">
+                </a>
+                <a href="#" class="footer__link mx-3 d-block">
+                    <img src="<?php echo __ROOT__; ?>/public/img/footer/ig.png" alt="instagram" width="36" height="36">
+                </a>
+                <a href="#" class="footer__link mx-3 d-block">
+                    <img src="<?php echo __ROOT__; ?>/public/img/footer/tw.png" alt="twitter" width="36" height="36">
+                </a>
+                <a href="#" class="footer__link mx-3 d-block">
+                    <img src="<?php echo __ROOT__; ?>/public/img/footer/in.png" alt="linkedin" width="36" height="36">
+                </a>
+            </div>
         </div>
-        <div class="md:col-span-2">
-            <ul class="flex">
-                <li class="m-3"><a target="_blank" href="https://www.facebook.com/EnCargoOLK?mibextid=LQQJ4d"><i class="fa-brands fa-square-facebook fa-2xl"></i></i></a></li>
-                <li class="m-3"><a target="_blank" href="https://instagram.com/encargo_olkb?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram fa-2xl"></i></a></li>
-                <li class="m-3"><a target="_blank" href="https://www.linkedin.com/in/encargo-olk-b65937249"><i class="fa-brands fa-linkedin fa-2xl"></i></a></li>
-            </ul>
+        <div class="col-md-4 text-right d-none d-md-block">
+            <header class="mb-4 d-flex flex-column align-items-end">
+                <h2 class="text--md poppins-light text-uppercase">Horarios de servicio</h2>
+                <span class="line--red"></span>
+            </header>
+            <main>
+                <ul class="list-unstyled">
+                    <li class="text--sm poppins-extralight mb-2">Lunes - Viernes: 8:30 am - 11:00 pm</li>
+                    <li class="text--sm poppins-extralight mb-2">Sábados: 8:30 am - 11:00 pm</li>
+                    <li class="text--sm poppins-extralight mb-2">Domingos: 8:30 am - 7:00 pm</li>
+                </ul>
+            </main>
         </div>
     </div>
-    <p class="text-grey_text text-center">© 2023. All Rights Reserved.</p>
+    <div class="mw--1080 mx-auto text-center">
+        <ul class="list-unstyled d-flex justify-content-center flex-wrap">
+            <li class="m-2">
+                <a href="<?php echo __ROOT__ . '/' ;?>" class="a--white text--sm poppins-extralight">HOME</a>
+            </li>
+            <li class="m-2">
+                <a href="<?php echo __ROOT__ . '/menu';?>" class="a--white text--sm poppins-extralight">MENÚ</a>
+            </li>
+            <li class="m-2">
+                <a href="<?php echo __ROOT__ . '/grupo-orraca';?>" class="a--white text--sm poppins-extralight">GRUPO ORRACA</a>
+            </li>
+            <li class="m-2">
+                <a href="<?php echo __ROOT__ . '/galeria';?>" class="a--white text--sm poppins-extralight">GALERÍA</a>
+            </li>
+            <li class="m-2">
+                <a href="<?php echo __ROOT__ . '/contacto';?>" class="a--white text--sm poppins-extralight">CONTACTO</a>
+            </li>
+            
+    </div>
 </footer>
 
 </body>

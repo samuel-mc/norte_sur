@@ -10,6 +10,7 @@
     /* Colores custom */
     --black: #2D2D2D;
     --ivory: #FBF8F7;
+    --red: #B62B36;
 
     --text-xs: 12px;
     --text-sm: 16px;
@@ -175,7 +176,7 @@
 }
 
 .a--white:hover {
-    color: var(--light-blue);
+    color: var(--red);
     text-decoration: none;
     transition: color 0.3s ease-in-out;
 }
