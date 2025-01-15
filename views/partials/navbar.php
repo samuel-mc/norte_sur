@@ -34,8 +34,8 @@ $title = isset($title) ? $title : 'Home';
         <a href="<?php echo __ROOT__ . '/'; ?>" class="menu-item <?php echo $title === 'Home' ? 'active' : ''; ?> " data-index="0">Home</a>
         <a href="<?php echo __ROOT__ . '/menu'; ?>" class="menu-item <?php echo $title === 'Menú' ? 'active' : ''; ?>" data-index="1">Menú</a>
         <a href="<?php echo __ROOT__ . '/'; ?>" class="menu-item <?php echo $title === 'Grupo Orraca' ? 'active' : ''; ?>" data-index="2">Grupo Orraca</a>
-        <a href="<?php echo __ROOT__ . '/'; ?>" class="menu-item <?php echo $title === 'Galería' ? 'active' : ''; ?>" data-index="3">Galería</a>
-        <a href="<?php echo __ROOT__ . '/'; ?>" class="menu-item <?php echo $title === 'Contacto' ? 'active' : ''; ?>" data-index="4">Contacto</a>
+        <a href="<?php echo __ROOT__ . '/galeria'; ?>" class="menu-item <?php echo $title === 'Galería' ? 'active' : ''; ?>" data-index="3">Galería</a>
+        <a href="<?php echo __ROOT__ . '/contacto'; ?>" class="menu-item <?php echo $title === 'Contacto' ? 'active' : ''; ?>" data-index="4">Contacto</a>
         <div class="hover-bar"></div>
     </div>
 </div>
@@ -53,8 +53,8 @@ $title = isset($title) ? $title : 'Home';
             <a class="nav-link active text-uppercase poppins-light" href="<?php echo __ROOT__ . '/'; ?>">Home</a>
             <a class="nav-link active text-uppercase poppins-light" href="<?php echo __ROOT__ . '/menu'; ?>">Menú</a>
             <a class="nav-link active text-uppercase poppins-light" href="<?php echo __ROOT__ . '/'; ?>">Grupo Orraca</a>
-            <a class="nav-link active text-uppercase poppins-light" href="<?php echo __ROOT__ . '/'; ?>">Galería</a>
-            <a class="nav-link active text-uppercase poppins-light" href="<?php echo __ROOT__ . '/'; ?>">Contacto</a>
+            <a class="nav-link active text-uppercase poppins-light" href="<?php echo __ROOT__ . '/galeria'; ?>">Galería</a>
+            <a class="nav-link active text-uppercase poppins-light" href="<?php echo __ROOT__ . '/contacto'; ?>">Contacto</a>
         </div>
     </div>
 </nav>
